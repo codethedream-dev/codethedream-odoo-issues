@@ -49,7 +49,7 @@ Complex issues may take longer depending on investigation requirements.
 
 ## 📬 Contact
 - **Odoo App Store Profile**: [Code the Dream](https://apps.odoo.com/apps/modules/browse?author=CodeTheDream)
-- **Email**: [codethedream.dev@gmail.com]
+- **Email**: codethedream.dev@gmail.com
 
 ---
 Thank you for helping us improve our Odoo modules!
