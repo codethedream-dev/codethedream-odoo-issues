@@ -1,0 +1,28 @@
+name: "❓ Question"
+description: "Ask a question about a Code the Dream Odoo module"
+title: "[QUESTION] <short description>"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Please describe it clearly so we can assist you quickly.
+  - type: input
+    id: module
+    attributes:
+      label: "Module name & version"
+      placeholder: "Example: Smart Users Access Rights Manager v1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: odoo-version
+    attributes:
+      label: "Odoo version"
+      placeholder: "Example: Odoo 17.0"
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your question"
+      placeholder: "Type your question here..."
+    validations:
+      required: true

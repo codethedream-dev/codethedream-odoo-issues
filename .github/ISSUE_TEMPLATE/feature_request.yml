@@ -1,0 +1,33 @@
+name: "💡 Feature Request"
+description: "Suggest a new feature or improvement for a Code the Dream Odoo module"
+title: "[FEATURE] <short description>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a feature! Please provide clear details so we can evaluate it.
+  - type: input
+    id: module
+    attributes:
+      label: "Module name & version"
+      placeholder: "Example: Smart Users Access Rights Manager v1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: odoo-version
+    attributes:
+      label: "Odoo version"
+      placeholder: "Example: Odoo 17.0"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Feature description"
+      placeholder: "Describe the feature you want to add or improve."
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: "Why is this feature useful?"
+      placeholder: "Explain the problem it solves or the improvement it brings."
